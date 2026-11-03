@@ -1,0 +1,17 @@
+CADCraft Corpus
+Copyright (c) 2026 ArtCraft Team and the CADCraft contributors.
+The repository's own files are licensed under the MIT License or the Apache License, Version 2.0,
+at your option (LICENSE-MIT, LICENSE-APACHE).
+
+Drawings
+
+Files under cadcraft/ were written by CADCraft (cadcraft-cli sample) with tools/generate.sh and
+are under the licence above. Each file under contributed/ was made by the contributor named in
+its LICENSES.tsv row and is under the licence given there.
+
+No Autodesk sample drawings, templates, fonts, hatch patterns, linetypes or other assets are
+included.
+
+AutoCAD and DWG are trademarks or registered trademarks of Autodesk, Inc. in the United States
+and/or other countries. This project is not affiliated with, sponsored by or endorsed by
+Autodesk, Inc.

@@ -1,0 +1,6 @@
+* text=auto eol=lf
+# Drawings are stored byte for byte, so SHA256SUMS holds on every platform.
+*.dxf -text
+*.DXF -text
+*.dwg binary
+*.DWG binary
