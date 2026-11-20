@@ -63,7 +63,7 @@ The key words MUST, MUST NOT, SHOULD, SHOULD NOT and MAY are used as in RFC 2119
 ## This repository
 <!-- craft-agents:end -->
 
-Shared CAD drawings (DXF and DWG) that CADCraft's round-trip tests read. They live here so the CADCraft repository's history stays small. [`README.md`](README.md) has the layout, what may be added and size guidance; CADCraft's [`CLAUDE.md`](https://github.com/storytold/cadcraft/blob/main/CLAUDE.md) describes how its harness uses these files.
+Shared CAD drawings (DXF and DWG) that CADCraft's round-trip tests read. They live here so the CADCraft repository's history stays small. [`README.md`](README.md) has the layout, what may be added and size guidance; CADCraft's `cadcraft-cli roundtrip` harness ([`roundtrip.rs`](https://github.com/storytold/cadcraft/blob/main/apps/cadcraft-cli/src/roundtrip.rs)) reads a checkout of this repository through `CADCRAFT_CORPUS_DIR`.
 
 - **Layout:** `cadcraft/` holds drawings CADCraft generates (`tools/generate.sh`, which runs `cadcraft-cli sample`); `contributed/<contributor>/` holds drawings a contributor made and owns.
 - **Manifest:** every file has a row in `LICENSES.tsv` (provenance and licence) and a line in `SHA256SUMS`, added in the same commit. `tools/sums.sh` regenerates the sums.
